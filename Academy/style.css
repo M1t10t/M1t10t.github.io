@@ -1,0 +1,42 @@
+header{
+    background-color: rgba(255, 106, 0, 0.384);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+    
+}
+.nav{
+    display: flex;
+    gap: 300px;
+}
+.nav__link{
+    text-decoration: none;
+    color:aliceblue;
+    font-size:25px;
+}
+body{
+    background-image: url("images/hole.webp");
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+
+}
+section{
+    border: 1px solid white;
+    width:80vw;
+    height:30vh;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+} 
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
